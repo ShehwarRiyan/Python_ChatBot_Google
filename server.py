@@ -2,7 +2,7 @@ import http.server
 import socketserver
 from google_search import chatbot_query
 
-PORT = 8080
+PORT = 8000
 DIRECTORY = 'public'
 
 class Handler(http.server.SimpleHTTPRequestHandler):
